@@ -1,0 +1,253 @@
+
+/* css pagina principal */
+@keyframes move_right{
+    from {
+        left: 100px;
+    }
+    to {
+        left: 0px;
+    }
+  } 
+  @keyframes move_left {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 100px;
+    }
+  }   
+ 
+
+
+@media (min-width: 600px) {
+    .badge__body{
+        box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+        height: 500px;
+        width: 900px;
+        background: url('../images/Presentacion.jpg') center ; 
+        background-size: 100% 100%;
+        background-repeat: no-repeat; 
+        display: flex;
+        margin: 20px;
+        justify-content: center;
+        position: relative;
+    }
+    .badge__body-square {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute; left: 320px; top: 160px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .badge__body-square-content{
+        width: 580px;
+        height: 150px;
+        background-color: rgba(238, 229, 216, 0.767);
+        animation-name: fadeIn, slideInLeft;
+        animation-duration: 5s;
+        position: relative;
+    }
+    
+    .badge__body-square-title{
+        margin-left: 120px;
+        color: #F57B09;
+    }
+    .badge__body-square-btn{
+        background-color: rgb(245, 245, 245);
+        height: 30px;
+        color: rgb(155, 12, 155);
+
+    }
+    .badge__body-shield{
+        width: 120px;
+        height: 120px;
+        border-radius: 140px;
+        background-color: #f1eeeafb;
+        display: flex;
+        color: snow;
+        position: absolute; left: 390px; top: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+        animation: zoomInRight; /* ANIMATION ZOON CIRCULO NARANJA*/
+        animation-duration: 2s; /* don't forget to set a duration! */
+    }
+
+    .badge__body-shield-content{
+        width: 100px;
+        height: 100px;
+        border: 2px solid #f57b09b9;
+        border-radius: 140px;    
+        color: #f57b09a8;
+
+    }
+
+    .badge__body-circle{
+        width: 280px;
+        height: 280px;
+        border-radius: 140px;
+        background-color: #f57b09a8;
+        display: flex;
+        color: snow;
+        position: absolute; left: 190px; top: 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        animation: zoomIn; /* ANIMATION ZOON CIRCULO NARANJA*/
+        animation-duration: 2s; /* don't forget to set a duration! */
+    
+    }
+
+    .badge__body-btn-menu{
+        background-color: rgba(245, 243, 243, 0.753);
+        position: absolute; left: 330px; top: 440px;
+        bottom: 0;
+        width: 30%;
+        height: 40px;
+        color: rgb(10, 10, 10);    
+        margin: 10px;  
+        border-radius: 10px;
+        animation: zoomIn; /* ANIMATION ZOON CIRCULO NARANJA*/
+        animation-duration: 2s; /* don't forget to set a duration! */
+    }
+    .badge__menu{
+        background: rgba(152, 19, 179, 0.678);
+        animation: zoomIn; 
+        animation-duration: 2s; 
+        position: relative;
+        z-index: 100;
+        box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+        height: 500px;
+        width: 900px;       
+      }
+      .badge__menu-circle{
+        width: 280px;
+        height: 280px;
+        border-radius: 140px;
+        background-color: #f5be09c4;
+        display: flex;
+        color: snow;
+        position: absolute; left: 90px; top: 140px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        animation: zoomIn; /* ANIMATION ZOON CIRCULO NARANJA*/
+        animation-duration: 2s; /* don't forget to set a duration! */
+    
+      }
+      .badge__menu-shield{
+        width: 130px;
+        height: 130px;
+        border-radius: 140px;
+        background-color: #f1eeeafb;
+        display: flex;
+        color: snow;
+        position: absolute; left: 200px; top: 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+        animation-name: slideInLeft;
+        animation-duration: 2s;
+      }
+      .next{
+        position: absolute; left: 520px; top: 90px;
+      }
+      .next:hover{
+        position: absolute; left: 521px; top: 92px;
+      }
+      .badge__menu-shield-content{
+        width: 100px;
+        height: 100px;
+        border: 2px solid #f57b09b9;
+        border-radius: 140px;    
+        color: #f57b09a8;
+      }
+    .btn-cancel{          
+        background: transparent;
+        border: none !important;
+        font-size:0;
+        position: absolute; left: 420px; top: 440px;
+        bottom: 0;
+        margin: 10px;  
+    }
+
+    .badge__menu-list{
+        position: absolute; left: 520px; top: 50px;
+    }
+    .badge__menu-list-num{
+        background-color: rgba(142, 14, 146, 0.918);
+        padding: 0px;
+        margin: 7px;
+        width: 320px;
+        color: palegoldenrod;
+        border-radius: 10px;
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 2px 0px 5px 0px rgba(0,0,0,0.75);
+    }
+    .num1{
+        animation-name: fadeIn, slideInLeft;
+        animation-duration: 1s;
+    }  
+    .num2{
+        animation-name: fadeIn, slideInLeft;
+        animation-duration: 2s;
+    }  
+    .num3{
+        animation-name: fadeIn, slideInLeft;
+        animation-duration: 3s;
+    }  
+    .num4{
+        animation-name: fadeIn, slideInLeft;
+        animation-duration: 4s;
+    }  
+    .num5{
+        animation-name: fadeIn, slideInLeft;
+        animation-duration: 4s;
+    }  
+    .num6{
+        animation-name: fadeIn, slideInLeft;
+        animation-duration: 5s;
+    }  
+    .num7{
+        animation-name: fadeIn, slideInLeft;
+        animation-duration: 5s;
+    } 
+
+
+
+    .badge__menu-list-num h6{
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 20px;
+    }
+
+    .badge__menu-list-num:hover{
+        background-color: rgba(186, 26, 192, 0.918);
+
+    }
+
+
+  
+  }
+  
+@media (max-width: 600px) {
+    .badge__body{
+        background-color: salmon;
+        display: flex;
+        height: 500px;
+        justify-content: center;
+    }
+  }

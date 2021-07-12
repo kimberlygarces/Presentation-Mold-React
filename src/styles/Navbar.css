@@ -1,0 +1,17 @@
+@keyframes move_right{
+    from {
+        left: 150px;
+    }
+    to {
+        left: 0px;
+    }
+  } 
+
+
+  .badge__header-img{
+    animation-name: move_right;
+    animation-duration: 2s;
+    position: relative;
+    padding: 2px;
+    width: 200px;
+  }

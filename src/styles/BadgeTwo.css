@@ -1,0 +1,92 @@
+ 
+  @keyframes move_left_text {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 200px;
+    }
+  }   
+.badge__two{
+    /* box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75); */
+    height: 500px;
+    width: 900px;
+    display: flex;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+
+}
+.badge__lower{
+    width: 900px;
+    height: 250px;
+    background-color: orange;
+    position: relative;
+
+
+}
+.badge__higher{
+    width: 900px;
+    height: 250px;
+    position: relative;
+
+}
+
+.two_title{
+    margin: 0px;
+    color: rgb(255, 145, 0);
+    position: absolute;
+}
+
+h4{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    float: left;
+}
+.two_text{
+    text-align: justify;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    animation-name: zoomIn;
+    animation-duration: 3s;
+    position: absolute; left: 250px; top: 125px;
+    
+}
+.two_text-two{
+    text-align: justify;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    animation-name: zoomIn;
+    animation-duration: 3s;
+    position: absolute; left: 650px; top: 165px;
+    z-index:1; 
+
+
+}
+.badge__img_two{
+    position: absolute; left: 250px; top: 230px;
+    z-index:1; 
+    width: 350px;
+    margin-left: 50px;
+    animation-name: move_left_text;
+    animation-duration: 3s;
+}
+
+  .next_three{
+    position: absolute; left: 1040px; top: 480px;
+    z-index:1; 
+
+  }
+  .next_three:hover{
+    position: absolute; left: 1041px; top: 480px;
+  }
+  .previous_two{
+    position: absolute; left: 210px; top: 240px;
+  }
+  .previous_two:hover{
+    position: absolute; left: 211px; top: 240px;
+  }

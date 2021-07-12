@@ -1,0 +1,71 @@
+.three_title{
+    margin: 0px;
+    color: rgb(255, 145, 0);
+    position: absolute;
+}
+.three_text{
+    text-align: justify;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    position: absolute; left: 250px; top: 125px;
+    
+}
+.badge__img_three{
+    position: absolute; left: 500px; top: 100px;
+    z-index:1; 
+    width: 550px;
+    margin-left: 100px;
+    animation-name: bounceInUp;
+    animation-duration: 3s;
+}
+    .Badges_list_three{
+        padding: 0px; /* Quitamos el padding por defecto de la lista */
+        margin-left: 30px; /* Separamos la lista de la izquierda */   
+    }
+    
+    .list::before { /* Añadimos contenido antes de cada elemento de la lista */
+    content: "\2022";
+    font-size:30px;
+    padding-right: 10px; /* Establecemos el espacio entre las viñetas y el list item */
+    color: rgb(255, 145, 0); /* Coloreamos la viñeta */
+    }
+    i{
+        color: rgb(255, 145, 0); /* Coloreamos la viñeta */
+    }
+ 
+      .list span {
+        font-size: 16px;
+        text-align: justify;
+      }
+
+  .next_four{
+    position: absolute; left: 1040px; top: 490px;
+    z-index:1; 
+  }
+  .next_four:hover{
+    position: absolute; left: 1041px; top: 491px;
+  }
+  .previous_three{
+    position: absolute; left: 210px; top: 490px;
+  }
+  .previous_three:hover{
+    position: absolute; left: 211px; top: 491px;
+  }
+
+  .list_one{
+    animation-name: fadeIn, slideInLeft;
+    animation-duration: 1s;
+  }  
+  .list_two{
+      animation-name: fadeIn, slideInLeft;
+      animation-duration: 2s;
+  }  
+  .list_three{
+      animation-name: fadeIn, slideInLeft;
+      animation-duration: 3s;
+  }  
+  .list_four{
+      animation-name: fadeIn, slideInLeft;
+      animation-duration: 4s;
+  }  
